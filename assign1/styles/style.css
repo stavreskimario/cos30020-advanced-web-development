@@ -1,0 +1,260 @@
+/* Filename: style.css
+   Target html: index.php, about.php, postjobform.php, postjobprocess.php, searchjobform.php, searchjobprocess.php
+   Purpose: Job Vacancy Posting System
+   Author: Mario Stavreski
+   Revisions:  v1.08
+*/
+
+
+/* 
+About 
+*/
+
+#features {
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+#enhancements .container {
+    margin-top: 50px;
+}
+
+#navigation-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar-brand img {
+    height: 50px;
+    padding-left: 35px;
+}
+
+.navbar-nav li {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.navbar-nav li a {
+    text-align: left;
+    float: right;
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.breadcrumbs {
+    margin-bottom: 0 !important;
+}
+
+
+/* 
+Index page
+*/
+
+#about {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-image: url(images/background_pattern.jpg);
+}
+
+#about .btn {
+    margin-top: 20px;
+}
+
+.about-left {
+    padding-left: 50px !important;
+}
+
+.content-about {
+    padding-top: 15px;
+}
+
+#about>div>div>a:nth-child(4) {
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
+#about>div>div>a:nth-child(5) {
+    margin-right: 20px;
+}
+
+
+/* 
+Search Results 
+*/
+
+.searchresult-col {
+    margin: 10px auto;
+    float: left;
+    width: 100%;
+    background-color: #DADADA;
+}
+
+.searchresult-col:hover {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.searchresult-head {
+    background-color: #C2004F;
+    width: 100%;
+    float: left;
+    padding: 10px 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.searchresult-head h3 {
+    color: #FFFFFF !important;
+    font: bold 28px;
+    margin-bottom: 15px;
+}
+
+.searchresult-head p {
+    color: #FFFFFF;
+    font: bold 22px;
+    margin-bottom: 5px;
+    line-height: 20px;
+}
+
+.searchresult-head span {
+    font: 15px;
+}
+
+.searchresult-content {
+    float: left;
+    width: 90%;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.searchresult-content ul li {
+    padding: 10px 2px;
+}
+
+.searchresult-btn {
+    float: left;
+    padding: 15px 15px 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.searchresult-btn {
+    background-color: #C2004F;
+    border-radius: 3px;
+    padding: 10px 20px;
+    text-decoration: none !important;
+    color: #FFFFFF;
+}
+
+.contact-btn:hover {
+    transition: 0.2s;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    background-color: #C2004F;
+}
+
+
+/* Search Form */
+
+#contact-section {
+    background-color: #DADADA;
+    padding-top: 45px;
+    padding-bottom: 45px;
+}
+
+.jobpost-form {
+    padding: 15px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+#searchForm {
+    min-height: 60vh;
+}
+
+.search-results {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#result-card-head {
+    text-align: left;
+    padding-left: 25px;
+}
+
+#results-card-col {
+    box-shadow: 0 0 6px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+#results-card-col:hover {
+    box-shadow: 0 0 8x 4px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+}
+
+#managerTable,
+#searchForm,
+#signupForm {
+    margin: 20px;
+}
+
+#signupForm {
+    padding-bottom: 280px;
+}
+
+#success {
+    margin-bottom: 20px;
+    min-height: 60vh;
+}
+
+
+/* 
+Footer 
+*/
+
+footer {
+    background-color: #343434;
+    padding: 6px;
+    color: #FFFFFF;
+}
+
+.footer-text {
+    padding-top: 7px;
+    font-weight: bold;
+}
+
+
+/* 
+Headings 
+*/
+
+h2 {
+    text-align: center;
+    color: #343434 !important;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+
+/*
+Breadcrumbs
+*/
+
+.breadcrumbs-item {
+    list-style-type: none;
+}
